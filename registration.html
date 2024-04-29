@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./style.css">
+    <title>Registration</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <table width="100%" align="center" cellpadding="0" cellspacing="2">
+                <tr>
+                    <th width="20%"><img src="logo.png" alt="GNITC LOGO" width="130"></th>
+                    <th colspan="4">
+                        <h1>Web Application for Shopping Cart</h1>
+                    </th>
+                </tr>
+            </table>
+        </header>
+        <nav>
+            <table width="100%" align="center" cellpadding="0" cellspacing="2">
+                <tr>
+                    <td width="20%"><hr><a href="registration.html">Registration</a><hr></td>
+                    <td width="20%"><hr><a href="cart.html">Cart</a><hr></td>
+                </tr>
+            </table>
+        </nav>
+        <main>
+            <center>
+                <h3>Registration Form</h3>
+                <form name="f1">
+                    <table cellpadding="1" align="center">
+                        <tr><td>Name:*</td><td><input type="text" name="username"></td></tr>
+                        <tr><td>Password:*</td><td><input type="password" name="password"></td></tr>
+                        <tr><td>Email ID:*</td><td><input type="text" name="email"></td></tr>
+                        <tr><td>Phone Number:*</td><td><input type="text" name="phno"></td></tr>
+                        <tr><td valign="top">Gender:*</td>
+                            <td><input type="radio" name="radio" value="1">Male &nbsp;&nbsp;
+                                <input type="radio" name="radio" value="2">Female</td></tr>
+                        <tr><td valign="top">Language Known:*</td>
+                            <td><input type="checkbox" name="checkbox" value="English">English<br/> 
+                                <input type="checkbox" name="checkbox" value="Telugu">Telugu<br>
+                                <input type="checkbox" name="checkbox" value="Hindi">Hindi<br>
+                                <input type="checkbox" name="checkbox" value="Tamil">Tamil</td></tr>
+                        <tr><td valign="top">Address:*</td><td><textarea name="address"></textarea></td></tr>
+                        <tr><td></td><td><input type="submit" value="submit" hspace="10">
+                                <input type="reset" value="reset"></td></tr>
+                        <tr><td colspan="2">*<font color="#FF0000">fields are mandatory</font></td></tr>
+                    </table>
+                </form>
+            </center>
+        </main>
+        <footer>Computer Science and Engineering</footer>
+    </div>
+</body>
+</html>

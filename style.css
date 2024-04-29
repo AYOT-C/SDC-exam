@@ -1,0 +1,63 @@
+/* Resetting default styles */
+*, *::before, *::after {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+/* Wrapper styles */
+.wrapper {
+   max-width: 1200px;
+   margin: auto;
+   padding: 20px;
+}
+
+/* Header and nav styles */
+header, nav {
+   width: 100%;
+   background: #333;
+   color: #fff;
+}
+
+nav td {
+   font-weight: bold;
+   font-size: 18px;
+}
+
+nav a {
+   color: #fff;
+   text-decoration: none;
+}
+
+nav a:hover {
+   color: #ccc;
+}
+
+/* Main content styles */
+main {
+   text-align: center;
+   margin-top: 20px;
+}
+
+main h3 {
+   color: black;
+}
+
+main table {
+   margin: auto;
+}
+
+main input[type="text"],
+main input[type="password"],
+main textarea {
+   width: 200px;
+   padding: 5px;
+   margin-bottom: 10px;
+}
+
+/* Footer styles */
+footer {
+   text-align: center;
+   margin-top: 20px;
+   color: black;
+}
